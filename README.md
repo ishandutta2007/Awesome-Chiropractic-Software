@@ -63,7 +63,7 @@ This repository tracks top **Chiropractic Software SaaS platforms**, **Electroni
 
 > 📢 **Open-Source Landscape**: While chiropractic software is commercially dominated, the open-source ecosystem offers general-purpose EHRs, AI clinical decision engines, and local-first patient journals that can be customized for chiropractic workflows.
 
-| Project Name | Stars ⭐ | License 📜 | Stack / Architecture 🛠️ | Description & Use Case 📝 |
+| Project Name | GitHub_Stars ⭐ | License 📜 | Stack / Architecture 🛠️ | Description & Use Case 📝 |
 | :--- | :---: | :---: | :--- | :--- |
 | **[OpenEMR](https://github.com/openemr/openemr)** | [<img src="https://img.shields.io/github/stars/openemr/openemr?style=social&color=white" alt="OpenEMR Stars"/>](https://github.com/openemr/openemr/stargazers) | GPL-3.0 | PHP, MySQL, JavaScript | Most popular ONC-certified open-source EHR & practice management system. Features scheduling, billing, and customizable SOAP forms. |
 | **[Hospital Management EMR](https://github.com/opensource-emr/hospital-management-emr)** | [<img src="https://img.shields.io/github/stars/opensource-emr/hospital-management-emr?style=social&color=white" alt="Hospital Management EMR Stars"/>](https://github.com/opensource-emr/hospital-management-emr/stargazers) | MIT | Angular, ASP.NET Core, C# | Modern, scalable EMR platform with patient records, clinic management, appointment booking, and billing modules. |
