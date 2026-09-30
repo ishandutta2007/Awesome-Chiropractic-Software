@@ -1,199 +1,110 @@
-# Awesome-Chiropractic-Software
+# 🦴 Awesome Chiropractic Software ⚡
 
-## Top Chiropractic Software Ecosystem
+![Awesome Chiropractic Software Header Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained" />
+  <img src="https://img.shields.io/badge/Category-Healthcare%20EHR-blue.svg" alt="Category" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Top Chiropractic Software Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**Curated List of Chiropractic EHR, Practice Management SaaS Platforms & Open-Source Projects** 🏥
 
-*Focused on Chiropractic EHR, Practice Management, SOAP Charting & Billing*
+*Focused on Chiropractic EHR, Practice Management Systems, SOAP Charting, Billing & Patient Engagement* 📑
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Chiropractic Software**. These tools help chiropractors manage patient records, schedule appointments, document SOAP notes, process insurance claims, and handle billing for cash and insurance-based practices.
-
-
-
-**Examples** include ChiroTouch, Jane App, Genesis Chiropractic Software, Platinum System, ClinicMind, EZBIS, Office Ally, PracticeHub, Cliniko, and InTouch EMR (the category leaders).
-
-
-
-**Open-source emphasis**: Chiropractic software is a **commercially dominated category** with no production-ready open-source chiropractic-specific EHR/PM platform. The open-source ecosystem provides **local-first patient journals** (ChiroCard), **general clinic management systems** (Imhotep Smart Clinic), and **legacy medical records systems** (OpenClinic). This section documents these focused solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ChiroTouch](https://www.chirotouch.com/)**
-
-  Chiropractic EHR and practice management platform trusted by **12,500+ practices**. Features **Rheo AI Scribe** for SOAP notes (saves up to 92% documentation time), integrated billing with claim scrubbing and ERA auto-posting, scheduling with natural language appointment creation, and CT Pay embedded payments . Three tiers: Start, Grow, and Scale.
-
-
-
-- **[Jane App](https://jane.app/)**
-
-  Clinic management platform built for chiropractic pace. Features **AI Scribe** for draft chart notes, customizable peer-built charting templates, digital intake with consent forms completed before arrival, billing codes carried over from chart notes, and automated reminders . Supports multi-discipline practices (DCs, LMTs, PTs) under one account.
-
-
-
-- **[Genesis Chiropractic Software](https://genesischiropracticsoftware.com/)**
-
-  Cloud-based, ONC-certified chiropractic EHR. Provides SOAP notes, travel cards, X-ray tracking, outcome measurement, and integrated billing/financials . Long-standing vendor with users reporting 15+ years of continuous use.
-
-
-
-- **[Platinum System](https://www.platinumsystem.com/)**
-
-  Chiropractic EHR designed for speed and ease of use. Features electronic check-in with health cards, automated arrival lists, one-screen patient EHR (X-rays, SOAP history, spinal levels, future appointments), fast SOAP notes with macros, and one-tap checkout . Doctor-centric and patient-friendly.
-
-
-
-- **[ClinicMind](https://www.clinicmind.com/chiropractic)**
-
-  Chiropractic practice software built for growth. Features **AI SOAP notes** that learn provider style, multi-location operations with centralized scheduling and collections visibility, **full-service credentialing** (providers billing in 3-6 weeks), and automated patient engagement . Recognized as G2 Leader for 15 consecutive quarters.
-
-
-
-- **[EZBIS](https://ezbis.com/)**
-
-  Chiropractic software since 1980. Provides patient accounting and billing, collection tools, scheduling, EHR, and patient self-check-in . Highly customizable with macros for almost every situation. Features ICD-10 codes, body charts, and dictation.
-
-
-
-- **[Office Ally (Practice Mate)](https://www.officeally.com/)**
-
-  Practice management software focused on revenue cycle management, reporting, billing, and streamlined booking . Features claims management, customizable forms, HIPAA compliance, and SMS messaging.
-
-
-
-- **[PracticeHub](https://www.practicehub.io/)**
-
-  All-in-one clinic management platform built specifically for chiropractors. Covers scheduling, clinical notes, integrated billing, memberships, patient communications (SMS/email), online bookings, patient app, reporting, and 40+ integrations . 30-day free trial, no contracts. Startup Scheme offers up to 90% off for new clinics.
-
-
-
-- **[Cliniko](https://www.cliniko.com/)**
-
-  Streamlined patient management system. User-friendly for appointment bookings, clinical notes, billing, and administration tasks. Easy to learn and teach to new employees .
-
-
-
-- **[InTouch EMR](https://intouchemr.com/)**
-
-  Integrated cloud-based EMR and practice management solution. Provides real-time eligibility verification, appointment reminders, customizable note templates, and medical billing . HIPAA compliant and ONC Certified. iPad app for mobile access.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Patient-First Bodywork Journal
-
-
-
-- **[ChiroCard](https://github.com/ehukaimedia/chirocard)**
-
-  **Local-first, no-account bodywork passport (PWA).** **Core philosophy**: "Patient is the Database" — all health records, history, and preferences live on the patient's device. No cloud, no accounts, no lock-in . **Features**: Bodywork Passport (carry body history on own device); **Smart Charting** (interactive body map for logging complaints, adjustments, and treatment notes); Session History (permanent local record); Care Team list; Clinic Search (OpenStreetMap-powered); PDF-ready session reports; Calendar export; Journal; **Own Your Data** (export full record to JSON anytime) . **Tech stack**: React 19, TypeScript, Vite 7, Dexie.js (IndexedDB), Capacitor 8 for mobile . **Roadmap**: Practitioner QR handoff for stateless kiosk charting. **MIT License** (per repo context) .
-
-
-
-### General Clinic Management Systems
-
-
-
-- **[Imhotep Smart Clinic](https://github.com/Imhotep-Tech/imhotep_smart_clinic)**
-
-  **Modern medical clinic management system built with Django and TailwindCSS.** **Features**: Digital medical records, smart appointment scheduling, prescription management, practice analytics, PWA support, Google OAuth . **Tech stack**: Django 4.2+, PostgreSQL 12+ (or SQLite for dev), TailwindCSS 3.0+, Alpine.js, WeasyPrint for PDF generation, Docker deployment . **27 stars, 5 forks**. Can be adapted for chiropractic workflows with custom templates.
-
-
-
-- **[OpenClinic (jact)](https://github.com/jact/openclinic)**
-
-  **Easy-to-use open-source medical records system written in PHP.** **39 stars, 65 forks** . **Features**: Medical records management (patient administration, social data, clinic history, problem reports), admin options (config settings, theme editor, staff members, system users, database dumps, log statistics) . **Multilingual**: English, Spanish, Dutch, Traditional Chinese. **GPL License**. Last updated October 2019. Suitable as a foundation for a lightweight chiropractic patient records system.
-
-
-
-- **[OpenClinic (llamasearchai)](https://github.com/llamasearchai/OpenClinic)**
-
-  **Advanced healthcare AI clinical decision support platform with OpenAI Agents.** **Features**: Clinical decision support (symptom analysis, drug interactions, guidelines, risk assessment, differential diagnosis), NLP processing (entity extraction, summarization), patient management, privacy/de-identification, FHIR integration . **Tech stack**: Python 3.11+, FastAPI, PostgreSQL, Redis, Next.js/React frontend, Docker . **MIT License**. **Note**: AI-focused CDS platform, not a traditional EHR — can complement a chiropractic practice management system .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Patient Journal**: **ChiroCard** (local-first, patient-owned, bodywork passport) .
-
-- **Clinic Management**: **Imhotep Smart Clinic** (Django, modern stack, adaptable) .
-
-- **Medical Records**: **OpenClinic** (PHP, GPL, multilingual, legacy) .
-
-- **Clinical Decision Support**: **OpenClinic (llamasearchai)** (AI agents, FHIR, MIT) .
-
-
-
-**Frameworks for building custom systems**: Combine **Imhotep Smart Clinic** as the core clinic management platform, **OpenClinic** for patient record management, and **OpenClinic (llamasearchai)** for AI-powered clinical decision support. For patient-facing charting, **ChiroCard** offers a local-first bodywork passport model. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Chiropractic software handles sensitive patient health data; ensure compliance with HIPAA, PHI protection requirements, and applicable state regulations.
-
-- **Open-source reality**: **No production-ready open-source chiropractic-specific EHR/PM platform exists**. The open-source ecosystem provides **patient-first journals** (ChiroCard, local-first PWA) , **general clinic management systems** (Imhotep Smart Clinic, Django) , **legacy medical records systems** (OpenClinic, PHP/GPL) , and **AI clinical decision support** (OpenClinic llamasearchai) . However, **commercial platforms** (ChiroTouch, Jane App, Genesis, Platinum, ClinicMind) provide **chiropractic-specific SOAP templates, insurance billing workflows, and practice growth tools** that open-source alternatives cannot match without significant customization. The open-source path is most viable for **patient-owned journals, lightweight record systems, or organizations with strong Django/PHP development capacity**.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
+### 🔍 Overview & SEO Keywords
+This repository tracks top **Chiropractic Software SaaS platforms**, **Electronic Health Record (EHR) systems**, and **open-source healthcare software projects**. These solutions help chiropractors, clinic managers, and physical therapy practices streamline patient intake, automate SOAP note charting, handle medical billing & claims scrubbing, and optimize scheduling.
 
+---
 
-**Made for chiropractors, clinic managers, practice owners, and healthcare developers.**
+## 📌 Table of Contents
+- [📊 Market Overview](#-market-overview)
+- [💻 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
-Let's make chiropractic software more open, transparent, and patient-centered.
+---
+
+## 📊 Market Overview
+
+> 💡 **Market Size & Structure**: The global Chiropractic Software market is valued at approximately **$286M - $1.1B** (2024–2026) and is projected to reach **$1.7B by 2032** growing at a CAGR of **8.3%**. The sector is **moderately fragmented**, undergoing rapid consolidation where established practice management providers are acquiring billing services and specialty EHR tools to create unified ecosystems.
+
+---
+
+## 💻 SaaS & Commercial Platforms
+
+| Company / Product | Size (Revenue / Valuation) 🏢 | Starting Price 💵 | Free Tier / Trial Limits 🎁 | Key Features & Highlights 🌟 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Jane App](https://jane.app/)** | **~$100M+ ARR** / ~$1.8B Valuation | $54/month (+ $35/mo per full-time provider) | ❌ No free tier (Free 1-on-1 demo & trial migration assistance) | AI Scribe for draft chart notes, peer-built charting templates, online intake forms, integrated payments & multi-discipline support. |
+| **[Office Ally (Practice Mate)](https://www.officeally.com/)** | **~$26M - $45M ARR** (Francisco Partners) | $39.95/month (Base Practice Mate) | ❌ No free tier (Free clearinghouse options for specific payer mixes; paid practice mate) | Revenue cycle management, claims scrubbing, ERA auto-posting, patient scheduling, and HIPAA-compliant portal. |
+| **[ChiroTouch](https://www.chirotouch.com/)** | **~$14M - $43M ARR** (PracticeTek) | $139/month (Core / Start plan) | ❌ No free tier (Guided interactive demo available) | Trusted by 12,500+ practices. Rheo AI Scribe (saves 92% charting time), CT Pay embedded billing, natural language scheduling. |
+| **[Cliniko](https://www.cliniko.com/)** | **~$1.5M - $4.6M ARR** (Self-Funded) | $45/month (1 Practitioner) | 🎁 **30-Day Free Trial** (Full access, no credit card required) | Streamlined booking, customizable clinical SOAP notes, integrated billing, automated SMS/email reminders. |
+| **[Genesis Chiropractic Software](https://genesischiropracticsoftware.com/)** | **~$5M - $10M ARR** (ClinicMind) | $97/month (Cash Plan) | ❌ No free tier (Custom live software demo) | Cloud-based ONC-certified EHR, travel cards, X-ray tracking, automated billing workflows, and outcome measurement. |
+| **[ClinicMind](https://www.clinicmind.com/chiropractic)** | **~$5M - $15M ARR** | $150/month (Estimated base tier) | ❌ No free tier (Free consultation & live demo) | AI SOAP notes learning provider style, multi-location central visibility, full-service credentialing (billing in 3-6 weeks). |
+| **[EZBIS](https://ezbis.com/)** | **~$3M - $8M ARR** | $225/month (Modular base) | ❌ No free tier (Free remote demo session) | Established in 1980. Highly customizable macros, ICD-10 body charts, patient self-check-in kiosks, and dictation support. |
+| **[Platinum System](https://www.platinumsystem.com/)** | **~$2M - $6M ARR** | $120/month | ❌ No free tier (Free personalized demo) | Speed-focused EHR with health card check-in, automated arrival lists, one-screen patient view, and fast macro SOAP notes. |
+| **[InTouch EMR](https://intouchemr.com/)** | **~$1M - $5M ARR** | $149/month | ❌ No free tier (Free live demo) | Real-time eligibility verification, iPad clinical app, automated outcome tracking, customizable templates, ONC certified. |
+| **[PracticeHub](https://www.practicehub.io/)** | **~$1M - $3M ARR** | $99/month | 🎁 **30-Day Free Trial** (Startup scheme with up to 90% off for new practices) | All-in-one platform covering scheduling, clinical notes, memberships, patient mobile app, and 40+ integrations. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> 📢 **Open-Source Landscape**: While chiropractic software is commercially dominated, the open-source ecosystem offers general-purpose EHRs, AI clinical decision engines, and local-first patient journals that can be customized for chiropractic workflows.
+
+| Project Name | Stars ⭐ | License 📜 | Stack / Architecture 🛠️ | Description & Use Case 📝 |
+| :--- | :---: | :---: | :--- | :--- |
+| **[OpenEMR](https://github.com/openemr/openemr)** | [<img src="https://img.shields.io/github/stars/openemr/openemr?style=social&color=white" alt="OpenEMR Stars"/>](https://github.com/openemr/openemr/stargazers) | GPL-3.0 | PHP, MySQL, JavaScript | Most popular ONC-certified open-source EHR & practice management system. Features scheduling, billing, and customizable SOAP forms. |
+| **[Hospital Management EMR](https://github.com/opensource-emr/hospital-management-emr)** | [<img src="https://img.shields.io/github/stars/opensource-emr/hospital-management-emr?style=social&color=white" alt="Hospital Management EMR Stars"/>](https://github.com/opensource-emr/hospital-management-emr/stargazers) | MIT | Angular, ASP.NET Core, C# | Modern, scalable EMR platform with patient records, clinic management, appointment booking, and billing modules. |
+| **[Open Hospital](https://github.com/informatici/openhospital)** | [<img src="https://img.shields.io/github/stars/informatici/openhospital?style=social&color=white" alt="Open Hospital Stars"/>](https://github.com/informatici/openhospital/stargazers) | GPL-3.0 | Java, MySQL | Free Health Information System (HIMS) designed for offline, standalone, or small network clinic operations. |
+| **[EHRbase](https://github.com/ehrbase/ehrbase)** | [<img src="https://img.shields.io/github/stars/ehrbase/ehrbase?style=social&color=white" alt="EHRbase Stars"/>](https://github.com/ehrbase/ehrbase/stargazers) | Apache-2.0 | Java, Spring Boot, openEHR | Standard-compliant openEHR clinical data repository backend for constructing custom chiropractic EHR & SOAP note solutions. |
+| **[OpenClinic (jact)](https://github.com/jact/openclinic)** | [<img src="https://img.shields.io/github/stars/jact/openclinic?style=social&color=white" alt="OpenClinic jact Stars"/>](https://github.com/jact/openclinic/stargazers) | GPL-2.0 | PHP, MySQL | Lightweight open-source medical record system for patient administration, medical history, problem reports, and clinic logs. |
+| **[ChiroCard](https://github.com/ehukaimedia/chirocard)** | [<img src="https://img.shields.io/github/stars/ehukaimedia/chirocard?style=social&color=white" alt="ChiroCard Stars"/>](https://github.com/ehukaimedia/chirocard/stargazers) | MIT | React 19, TS, Vite, Dexie.js | **Local-first patient bodywork journal & passport PWA**. All records remain on patient device; features interactive body map for SOAP logging. |
+| **[Imhotep Smart Clinic](https://github.com/Imhotep-Tech/imhotep_smart_clinic)** | [<img src="https://img.shields.io/github/stars/Imhotep-Tech/imhotep_smart_clinic?style=social&color=white" alt="Imhotep Stars"/>](https://github.com/Imhotep-Tech/imhotep_smart_clinic/stargazers) | MIT | Django 4.2+, TailwindCSS | Modern clinic management system with digital records, smart scheduling, prescription tracking, and PDF reports. |
+| **[OpenClinic AI](https://github.com/llamasearchai/OpenClinic)** | [<img src="https://img.shields.io/github/stars/llamasearchai/OpenClinic?style=social&color=white" alt="OpenClinic AI Stars"/>](https://github.com/llamasearchai/OpenClinic/stargazers) | MIT | Python, FastAPI, Next.js | Healthcare AI clinical decision support platform using OpenAI agents for symptom analysis, NLP summarization, and FHIR integration. |
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴
+2. Create a new feature branch (`git checkout -b add-new-software`)
+3. Add or update entries in `README.md` maintaining table formatting
+4. Submit a Pull Request with details 🚀
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** for informational and educational purposes.
+- Chiropractic software handles sensitive Protected Health Information (PHI); ensure full compliance with **HIPAA**, **GDPR**, and applicable healthcare regulations before deployment.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your practice, research, or clinical development, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** to contribute new tools and updates.
+- 📢 **Share it** with fellow chiropractors, developers, and clinic managers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+*Thank you for supporting open healthcare software development!* 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Chiropractic-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Chiropractic-Software&type=date&legend=top-left)
